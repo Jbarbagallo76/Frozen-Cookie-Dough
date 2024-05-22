@@ -1,0 +1,24 @@
+.page-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 75px;
+    margin-top: 40px;
+    margin-right: 175px;
+    margin-bottom: 40px;
+}
+
+.page-wrapper > .page-img-wrapper {
+    margin-right: 50px;
+}
+
+.page-wrapper > .page-img-wrapper img {
+    height: 500px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.page-wrapper > .page-text-wrapper > .page-body-wrapper {
+    font-size: 30px;
+}

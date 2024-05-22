@@ -1,4 +1,11 @@
 body{
-    background-color: #523617;
+    background-color: #9DCF97;
     margin: 0;
+    font-family: "Niconne", cursive;
+}
+
+a {
+    color: #1E441E;
+    transition-duration: 1s;
+    text-decoration: none;
 }

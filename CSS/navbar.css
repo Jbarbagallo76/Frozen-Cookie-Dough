@@ -1,34 +1,33 @@
 .navbar-wrapper {
-    background-color: azure;
+    background-color: #437A48;
     display: flex;
     justify-content: flex-start;
     height: 115px;
 }
 
 .navbar-wrapper > .img-wrapper img {
-    height: 100px;
+    height: 110px;
     margin-left: 10px;
+    margin-top: 3px;
 }
 
 .navbar-wrapper > .link-wrapper {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .navbar-wrapper > .link-wrapper > .navlink {
-    margin: 10px;
+    margin: 25px;
     margin-top: 40px;
 }
 
 .navbar-wrapper > .link-wrapper > .navlink a {
     font-size: 50px;
-    color: orange;
-    transition-duration: 1s;
-    text-decoration: none;
+    color: #1E441E;
 }
 
 .navbar-wrapper > .link-wrapper > .navlink a:hover {
-    color: rgb(145, 80, 0);
+    color: #132b13;
     cursor: pointer;
 }
