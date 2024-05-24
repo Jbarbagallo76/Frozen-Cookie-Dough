@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     margin-left: 75px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 175px;
     margin-bottom: 40px;
 }
@@ -17,4 +17,19 @@
 
 .page-wrapper > .page-text-wrapper > .page-body-wrapper {
     font-size: 30px;
+}
+
+.page-wrapper > .page-text-wrapper > .page-body-wrapper img {
+    width: 100%;
+}
+
+.back-button {
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+.back-button img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
 }

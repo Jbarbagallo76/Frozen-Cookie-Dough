@@ -1,0 +1,35 @@
+.page-wrapper {
+    margin-left: 20px;
+}
+
+.menu-items-wrapper {
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-item > .img-wrapper img {
+    width: 250px;
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.menu-item > .img-wrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
