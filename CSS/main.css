@@ -4,12 +4,34 @@ body {
     font-family: "Niconne", cursive;
 }
 
+a.button {
+    font-family: "Niconne", cursive;
+    transition-duration: 0.7s;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    background-color: #1E441E;
+    border-radius: 12px;
+}
+
+a.button:hover {
+    background-color: #437A48;
+    cursor: pointer;
+}
+
 a {
-    color: #1E441E;
+    color: #172e17;
     transition-duration: 1s;
     text-decoration: none;
 }
 
 h1 {
     font-size: 45px;
+}
+
+.page-wrapper {
+    margin-top: 115px;
 }
