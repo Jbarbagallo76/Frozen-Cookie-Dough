@@ -6,19 +6,19 @@ body {
 
 a.button {
     font-family: "Niconne", cursive;
-    transition-duration: 0.7s;
+    transition-duration: 0.9s;
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
     color: buttontext;
     background-color: buttonface;
     text-decoration: none;
-    background-color: #1E441E;
+    background-color: #377437;
     border-radius: 12px;
 }
 
 a.button:hover {
-    background-color: #437A48;
+    background-color: #275827;
     cursor: pointer;
 }
 
