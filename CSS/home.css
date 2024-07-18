@@ -103,6 +103,7 @@
 .top-wrapper {
     display: flex;
     margin-bottom: 50px;
+    background-color: #b3dfae;
 }
 
 .slideshow-wrapper {
