@@ -35,3 +35,7 @@ h1 {
 .page-wrapper {
     margin-top: 115px;
 }
+
+.spacer-20 {
+    height: 20px;
+}
