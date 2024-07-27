@@ -46,11 +46,12 @@
     }
 
     .navbar-wrapper > .link-wrapper > .navlink a {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .navbar-wrapper > .link-wrapper > .navlink {
-        margin: 20px;
+        margin: 10px;
+        margin-bottom: 20px;
         margin-top: 30px;
     }
 }
