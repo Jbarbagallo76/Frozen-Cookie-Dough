@@ -1,3 +1,10 @@
 .form-wrapper {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+    .form-wrapper {
+        margin: 50px;
+        margin-top: 20px;
+    }
 }

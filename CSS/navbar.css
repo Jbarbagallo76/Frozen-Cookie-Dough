@@ -35,3 +35,22 @@
     color: #132b13;
     cursor: pointer;
 }
+
+@media (max-width: 700px) {
+    .navbar-wrapper {
+        height: 70px;
+    }
+
+    .navbar-wrapper > .img-wrapper img {
+        height: 65px;
+    }
+
+    .navbar-wrapper > .link-wrapper > .navlink a {
+        font-size: 30px;
+    }
+
+    .navbar-wrapper > .link-wrapper > .navlink {
+        margin: 20px;
+        margin-top: 30px;
+    }
+}

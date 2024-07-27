@@ -33,3 +33,15 @@
     overflow: hidden;
     border-radius: 50%;
 }
+
+@media (max-width: 700px) {
+    .menu-row {
+        display: block;
+    }
+
+    .menu-items-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
