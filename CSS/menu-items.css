@@ -41,3 +41,37 @@
 .back-button-wrapper {
     margin-top: 115px;
 }
+
+@media (max-width: 700px) {
+    .back-button-wrapper {
+        margin-top: 64px;
+    }
+
+    .back-button img {
+        width: 40px;
+    }
+
+    .back-button {
+        font-size: 25px;
+    }
+
+    .page-wrapper {
+        display: block;
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    .page-wrapper > .page-img-wrapper {
+        margin-right: 0px;
+    }
+    
+    .page-wrapper > .page-img-wrapper img {
+        width: 93%;
+        height: auto;
+    }
+
+    .page-wrapper > .page-text-wrapper > .page-body-wrapper img {
+        width: 95%;
+    }
+}
