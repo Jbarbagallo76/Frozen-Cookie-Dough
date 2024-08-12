@@ -28,6 +28,11 @@ a {
     text-decoration: none;
 }
 
+a.visible-link {
+    color: #377437;
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 45px;
 }
